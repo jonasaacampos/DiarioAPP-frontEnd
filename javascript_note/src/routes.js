@@ -1,17 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeScreen from './screens/home';
 
-const AppRoutes = () => {
-   ReactDOM.render(
-      <Router>
+const AppRoutes = () => (
+      <BrowserRouter>
          <Routes>
-            <Route exact path="/" element={<HomeScreen/>} />
+            <Route exact path="/" component={HomeScreen} />
          </Routes>
-      </Router>
-   )
-
-}
+      </BrowserRouter>
+)
 
 export default AppRoutes;
