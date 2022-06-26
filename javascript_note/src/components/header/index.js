@@ -27,8 +27,6 @@ function Header() {
         </Navbar.Menu>
       </Container>
     </Navbar>
-
-
    );
 }
 

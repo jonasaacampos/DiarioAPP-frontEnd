@@ -1,26 +1,13 @@
 import React, { Fragment } from "react";
 import { Notification, Section } from 'rbx';
 import './App.scss';
-<<<<<<< HEAD
-<<<<<<< HEAD
-import AppRoutes from "./routes";
-
-
-const App = () => (
-   <div>
-      <AppRoutes/>
-   </div>
-=======
-=======
->>>>>>> parent of 4015000 (tela inicial criada)
-import Header from './components/header';
+import Home from "./screens/home";
 
 
 const App = () => (
    <Fragment>
-      <Header/>
+      <Home/>
    </Fragment>
->>>>>>> parent of 4015000 (tela inicial criada)
 )
 
 export default App;
