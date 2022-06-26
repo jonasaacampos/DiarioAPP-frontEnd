@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Notification, Section } from 'rbx';
 import './App.scss';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import AppRoutes from "./routes";
 
 
@@ -10,6 +11,8 @@ const App = () => (
       <AppRoutes/>
    </div>
 =======
+=======
+>>>>>>> parent of 4015000 (tela inicial criada)
 import Header from './components/header';
 
 
